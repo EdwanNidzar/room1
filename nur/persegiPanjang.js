@@ -1,4 +1,4 @@
-class persegiPanjang {
+class Persegipanjang {
     constructor(panjang,lebar) {
       this.panjang = panjang;
       this.lebar = lebar;
@@ -17,7 +17,7 @@ class persegiPanjang {
     }
   }
   
-  const persegiPanjang1 = new persegiPanjang(5,10);
+  const persegiPanjang1 = new Persegipanjang(5,10);
   console.log("Luas Persegi Panjang:", persegiPanjang1.hitungLuas());
   console.log("Keliling Persegi Panjang:", persegiPanjang1.hitungKeliling());
   
